@@ -73,6 +73,6 @@ def update_task(task_id: int, task_update: TaskUpdate):
 @app.get("/")
 def root():
     return {
-        "message": "Добро пожаловать в backend-journey!",
+        "message": "Welcome to backend-journey!",
         "docs_url": "/docs"
     }
