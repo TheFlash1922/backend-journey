@@ -69,3 +69,10 @@ def update_task(task_id: int, task_update: TaskUpdate):
             save_tasks(tasks)
             return task
     return {"error": "Задача не найдена"}
+
+@app.get("/")
+def root():
+    return {
+        "message": "Добро пожаловать в backend-journey!",
+        "docs_url": "/docs"
+    }
