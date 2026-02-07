@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Выучить Python",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "Создать API",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "title": "Изучить JSON",
+    "completed": false
+  }
+]
